@@ -1,0 +1,33 @@
+On distribution, the imported files will be transferred from the temporary target folder to their final destinations.
+If any files were not grouped, they will remain in the temporary target folders (JpgInitial and RawInitial).
+The directory structure after distribution will look as follows:
+
++-TargetFolder
+|
++--001
+|
++---jpg (containing the jpgs of the set)
+|
++---raw (containing the raw files of the set)
+|
++---work (initially empty, I use it to store any backups during further processing and the final images here)
+|
++--002
+|
++---jpg
+|
++---raw
+|
++---work
+|
+... (repeat this for all specified groups)
+|
++--done (initially empty, I use this to store all final images in full resolution as jpgs)
+|
++--internet (initially empty, I use this to store all final images in a flickr/fotocommunity resolution as jpgs)
+|
++--tiff (initially empty, I use this to store all final images in full resolution as lossless tiff)
+|
++--JpgInitial (containing all JPGs that were not grouped)
+|
++--RawInitial (containing all RAWs that were not grouped)

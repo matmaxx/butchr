@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>The butchr</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="camera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\camera.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExDirectoryDoesNotExist" xml:space="preserve">
+    <value>The specified directory does not exist: {0}</value>
+  </data>
+  <data name="ExThumbnailCreationFailed" xml:space="preserve">
+    <value>The creation of the thumbnails failed:{0}</value>
+  </data>
+  <data name="ExThumbnailNotCached" xml:space="preserve">
+    <value>The requested image is not thumbnailed yet:{0}</value>
+  </data>
+  <data name="FolderJpgInitial" xml:space="preserve">
+    <value>JpgInitial</value>
+  </data>
+  <data name="FolderRawInitial" xml:space="preserve">
+    <value>RawInitial</value>
+  </data>
+  <data name="LogColContent" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="LogColTimestamp" xml:space="preserve">
+    <value>Timestamp</value>
+  </data>
+  <data name="StringColCreated" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="StringColModified" xml:space="preserve">
+    <value>Modified</value>
+  </data>
+  <data name="StringColName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="StringColSize" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="StringMboxDriveAuthFailed" xml:space="preserve">
+    <value>Drive or directory access denided: {0}</value>
+  </data>
+  <data name="StringMboxDriveInvalid" xml:space="preserve">
+    <value>Drive not ready or directory does not exist: {0}</value>
+  </data>
+  <data name="StringMboxUnhandledException" xml:space="preserve">
+    <value>Unhandled Exception: {0}</value>
+  </data>
+  <data name="StringTreeRootnode" xml:space="preserve">
+    <value>My Computer</value>
+  </data>
+  <data name="ExMoveFailed" xml:space="preserve">
+    <value>The file {0} cannot be distributed to {1}: {2}</value>
+  </data>
+  <data name="ExtensionRawGeneric" xml:space="preserve">
+    <value>RAW</value>
+  </data>
+  <data name="FolderFinished" xml:space="preserve">
+    <value>done</value>
+  </data>
+  <data name="FolderGroupFormat" xml:space="preserve">
+    <value>D3</value>
+  </data>
+  <data name="FolderInternet" xml:space="preserve">
+    <value>internet</value>
+  </data>
+  <data name="FolderJpgTarget" xml:space="preserve">
+    <value>jpg</value>
+  </data>
+  <data name="FolderRawTarget" xml:space="preserve">
+    <value>raw</value>
+  </data>
+  <data name="FolderWorkTarget" xml:space="preserve">
+    <value>work</value>
+  </data>
+  <data name="LogDistributionFinished" xml:space="preserve">
+    <value>All files distributed successfully.</value>
+  </data>
+  <data name="LogMoveSuccessful" xml:space="preserve">
+    <value>The file {0} was distributed to {1}.</value>
+  </data>
+  <data name="PreviewPrefix" xml:space="preserve">
+    <value>Preview_</value>
+  </data>
+  <data name="PreviewSuffix" xml:space="preserve">
+    <value>.jpg</value>
+  </data>
+  <data name="FolderGallery" xml:space="preserve">
+    <value>gallery</value>
+  </data>
+  <data name="ExtensionRawAdobe" xml:space="preserve">
+    <value>DNG</value>
+  </data>
+  <data name="ExtensionRawCanon01" xml:space="preserve">
+    <value>CR2</value>
+  </data>
+  <data name="ExtensionRawCanon02" xml:space="preserve">
+    <value>CRW</value>
+  </data>
+  <data name="ExtensionRawNikon" xml:space="preserve">
+    <value>NEF</value>
+  </data>
+  <data name="FolderScratch" xml:space="preserve">
+    <value>scratch</value>
+  </data>
+  <data name="LogXmpImportFailed" xml:space="preserve">
+    <value>Failed to import xmp file. Loading defaults.</value>
+  </data>
+  <data name="LogScratchBatchCreated" xml:space="preserve">
+    <value>Saved ScratchBatch at: {0}</value>
+  </data>
+  <data name="LogXmpExportFailed" xml:space="preserve">
+    <value>Failed to export xmp file: {0}</value>
+  </data>
+  <data name="ofdXmpImportFilter" xml:space="preserve">
+    <value>xmp files (*.xmp)|*.xmp|All files (*.*)|*.*</value>
+  </data>
+  <data name="ofdXmpImportTitle" xml:space="preserve">
+    <value>Select xmp file to import</value>
+  </data>
+  <data name="ScratchBatchFilename" xml:space="preserve">
+    <value>ScratchBatch.bat</value>
+  </data>
+  <data name="sfdXmpExportFilter" xml:space="preserve">
+    <value>xmp files (*.xmp)|*.xmp|All files (*.*)|*.*</value>
+  </data>
+  <data name="sfdXmpExportTitle" xml:space="preserve">
+    <value>Select xmp file to export</value>
+  </data>
+  <data name="ofdPhotomatixFilter" xml:space="preserve">
+    <value>Applications (*.exe)|*.exe|All files (*.*)|*.*</value>
+  </data>
+  <data name="ofdPhotomatixTitle" xml:space="preserve">
+    <value>Select photomatix commandline executable</value>
+  </data>
+  <data name="StringMboxPhotomatixOptionsResetText" xml:space="preserve">
+    <value>Please confirm that you want to reset the Photomatix commandline options to the default values.</value>
+  </data>
+  <data name="StringMboxPhotomatixOptionsResetTitle" xml:space="preserve">
+    <value>Confirm reset</value>
+  </data>
+  <data name="FolderScratchDone" xml:space="preserve">
+    <value>done</value>
+  </data>
+  <data name="FolderScratchSkipped" xml:space="preserve">
+    <value>skipped</value>
+  </data>
+  <data name="StringMboxRawFormatMismatchText" xml:space="preserve">
+    <value>The importer has found a different RAW format in the source folder than the stored one.{2}Stored format: {1}{2}Source folder format: {0}{2}Do you want to update the stored RAW format to '{0}' ?{2}{2}TAKE CARE: If you do not update the stored RAW format,{2} the RAW files in the source folder will be ignored on the current import. </value>
+  </data>
+  <data name="StringMboxRawFormatMismatchTitle" xml:space="preserve">
+    <value>RAW formats mismatch</value>
+  </data>
+  <data name="arrow_refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\arrow_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chart_organisation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\chart_organisation.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="door_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\door_in.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\help.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="information" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\information.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="link" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\link.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="link_break" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\link_break.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="link_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\link_delete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page_white_camera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\page_white_camera.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pencil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\pencil.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\photo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\picture.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pictures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\pictures.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wrench" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\wrench.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="butchr_logo__400x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\butchr_logo__400x200.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogStepCopy" xml:space="preserve">
+    <value>Copy {0} to {1}.</value>
+  </data>
+  <data name="LogStepError" xml:space="preserve">
+    <value>Error occured while processing {0}.</value>
+  </data>
+  <data name="LogStepMove" xml:space="preserve">
+    <value>Move {0} to {1}.</value>
+  </data>
+  <data name="LogStepOverwrite" xml:space="preserve">
+    <value>Overwrite {0} with {1}.</value>
+  </data>
+  <data name="LogStepSkip" xml:space="preserve">
+    <value>Skip {0}.</value>
+  </data>
+  <data name="LogStepCancel" xml:space="preserve">
+    <value>Cancel complete import operation.</value>
+  </data>
+  <data name="ExistingFileDialogSource" xml:space="preserve">
+    <value>Sourcefile: {0}</value>
+  </data>
+  <data name="ExistingFileDialogTarget" xml:space="preserve">
+    <value>Targetfile: {0}</value>
+  </data>
+  <data name="LogStepCopyFinishedFirst" xml:space="preserve">
+    <value>Copy finished first, waiting for end of thumbnail creation.</value>
+  </data>
+  <data name="LogStepCopyFinishedLast" xml:space="preserve">
+    <value>Copy finished last, now filling list.</value>
+  </data>
+  <data name="LogStepStartThumbnailCreation" xml:space="preserve">
+    <value>Start thumbnail creation</value>
+  </data>
+  <data name="LogStepThumbnailCreated" xml:space="preserve">
+    <value>[{0}|{1}] Thumbnail created for {2}.</value>
+  </data>
+  <data name="LogStepThumbnailingFinishedFirst" xml:space="preserve">
+    <value>Thumbnail creation finished first, waiting for end of raw copy.</value>
+  </data>
+  <data name="LogStepThumbnailingFinishedLast" xml:space="preserve">
+    <value>Thumbnail creation finished last, now filling listview.</value>
+  </data>
+  <data name="arrow_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_in.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_out.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="application_split" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application_split.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImportOptionsFolderContainsNoImages" xml:space="preserve">
+    <value>The selected source folder does not contain images.</value>
+  </data>
+  <data name="ImportOptionsFolderDoesNotExist" xml:space="preserve">
+    <value>The selected folder does not exist.</value>
+  </data>
+  <data name="tsbToggleLogVisibilityHide" xml:space="preserve">
+    <value>Hide the logwindow</value>
+  </data>
+  <data name="tsbToggleLogVisibilityShow" xml:space="preserve">
+    <value>Show the logwindow</value>
+  </data>
+  <data name="FolderTiff" xml:space="preserve">
+    <value>tiff</value>
+  </data>
+  <data name="LogExExifReader" xml:space="preserve">
+    <value>Exif reader problem: {0}</value>
+  </data>
+  <data name="LogExListDrawItem" xml:space="preserve">
+    <value>Error while drawing a thumbnail: {0}</value>
+  </data>
+  <data name="wand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wand.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogExAutogroupFailed" xml:space="preserve">
+    <value>The autogroup feature produced this error: {0}</value>
+  </data>
+  <data name="LogPleaseLoadImages" xml:space="preserve">
+    <value>Please load some images before performing this operation.</value>
+  </data>
+  <data name="LogExHelpFileNotFound" xml:space="preserve">
+    <value>The requested help file for {0} was not found at {1}</value>
+  </data>
+  <data name="HelpContentAutoGroup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HelpContentAutoGroup.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="HelpContentDistribute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HelpContentDistribute.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="HelpContentGroupFiles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HelpContentGroupFiles.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="HelpContentImport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HelpContentImport.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="HelpContentOpenApplication" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HelpContentOpenApplication.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="HelpContentScratchBatch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HelpContentScratchBatch.txt;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ShowHelpAutoGroupTitle" xml:space="preserve">
+    <value>What is the autogroup feature..?</value>
+  </data>
+  <data name="ShowHelpDistributeTitle" xml:space="preserve">
+    <value>How do I distribute my files..?</value>
+  </data>
+  <data name="ShowHelpGroupFiles" xml:space="preserve">
+    <value>All files are imorted, so how do I go on..?</value>
+  </data>
+  <data name="ShowHelpImportTitle" xml:space="preserve">
+    <value>How do I import my HDR source images..?</value>
+  </data>
+  <data name="ShowHelpOpenApplicationTitle" xml:space="preserve">
+    <value>How can the butchr help me organize my HDR source images..?</value>
+  </data>
+  <data name="ShowHelpScratchBatchTitle" xml:space="preserve">
+    <value>What the heck it scratchbatch..?</value>
+  </data>
+  <data name="LogStepCounterCurrentTotal" xml:space="preserve">
+    <value>[{0}|{1}] {2}</value>
+  </data>
+  <data name="MboxFolderAlreadyContainsButchrsText" xml:space="preserve">
+    <value>Your selected target folder already contains butchred images. {0}The images you import now will be appended to the existing butchr images. </value>
+  </data>
+  <data name="MboxFolderAlreadyContainsButchrsTitle" xml:space="preserve">
+    <value>Folder already in use</value>
+  </data>
+  <data name="ExifKeyCameraModel" xml:space="preserve">
+    <value>Camera model</value>
+  </data>
+  <data name="ExifKeyCameraOEM" xml:space="preserve">
+    <value>Camera OEM</value>
+  </data>
+  <data name="ExifKeyFocalLength" xml:space="preserve">
+    <value>Focal length</value>
+  </data>
+  <data name="ExifKeyFStop" xml:space="preserve">
+    <value>Aperture</value>
+  </data>
+  <data name="ExifKeyIsoSpeedRating" xml:space="preserve">
+    <value>ISO</value>
+  </data>
+  <data name="ExifKeyOrientation" xml:space="preserve">
+    <value>Orientation</value>
+  </data>
+  <data name="ExifKeyOriginalTimestamp" xml:space="preserve">
+    <value>Original timestamp</value>
+  </data>
+  <data name="ExifKeyShutterspeed" xml:space="preserve">
+    <value>Shutter speed</value>
+  </data>
+  <data name="ExifValueNotAvailable" xml:space="preserve">
+    <value>n/a</value>
+  </data>
+  <data name="ExifValueOrientationLandscape" xml:space="preserve">
+    <value>Landscape</value>
+  </data>
+  <data name="ExifValueOrientationPortrait" xml:space="preserve">
+    <value>Portrait</value>
+  </data>
+  <data name="LogColExifKey" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="LogColExifValue" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="MboxImportCreateDirectoryText" xml:space="preserve">
+    <value>The directory does not exist, do you want to create it?</value>
+  </data>
+  <data name="MboxImportCreateDirectoryTitle" xml:space="preserve">
+    <value>Directory not found</value>
+  </data>
+  <data name="mod_input" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\mod_input.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mod_output" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\media\mod_output.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProviderColApprovalDate" xml:space="preserve">
+    <value>Approval date</value>
+  </data>
+  <data name="ProviderColPublishState" xml:space="preserve">
+    <value>Publish state</value>
+  </data>
+  <data name="ProviderColTitle" xml:space="preserve">
+    <value>Provider name</value>
+  </data>
+  <data name="ProviderColUploadDate" xml:space="preserve">
+    <value>Upload date</value>
+  </data>
+  <data name="ProviderColWorkingState" xml:space="preserve">
+    <value>Working state</value>
+  </data>
+  <data name="session" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cup.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

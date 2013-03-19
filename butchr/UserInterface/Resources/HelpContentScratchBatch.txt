@@ -1,0 +1,43 @@
+Scratchbatch is a term invented by myself simply because I did not find anything better for this feature.
+But what's behind this:
+This feature will produce a batchfile that you can execute externally to call the command line version of photomatix
+to process and tonemap all images-series in the current import. I chose to do this externally because depending on 
+your machine, this might take quite a long time.
+When clicking on the scratchbatch button, a dialog appears that shows all sliders that you are familiar with from 
+photomatix. And guess what - that's exactly what you do with them. You select a common development setting for 
+all images to be scratchbatched. And just like saving a preset in photomatix, these settings are stored in an xmp file.
+So that's why you can also import settings from an xmp file or export to an xmp file.
+But whenever you click create scratchbatch, two files will be created in the target directory:
+- ScratchBatch.bat
+- default.xmp (which is used by ScratchBatch.bat)
+In addition to the photmatix settings there are some more parameters to be set here.
+Of course, you have to tell the butchr the path of your photomatix installation.
+Next, you can select to delete the source JPGs after scratchbatching (since they are no longer required)
+And as a last parameter, you can define the exact way of the processing by photomatix by adjusting it's command 
+line arguments, e.g. if you want to enable shiftcorrection because of your cheap tripod ;-] 
+If you are not familiar with the command line options of photomatix, simply click on the '?' button and wait for the official 
+photomatix help site to be opened (this is a local copy, so it requires no internet connection).
+
+But why should you want to process all images with the same settings when I tell you in my tutorial that every image has
+to be processed uniquely. I use this feature right after distribution before I start working on the first image. 
+This gives me an overview about all the result images that I can expect.
+
+Scratchbatch will add another folder to the target location:
+
++-TargetFolder
+|
+...
+|
++--scratch
+|
++---done
+|
++---skipped
+
+All scratch images are directly stored in the scratch folder. Whenever I finish work on one image I move the image to the 
+'done' folder. If I choose not to work on an image, I move its scratch to the 'skipped' folder.
+So when the scratch folder gets empty, I know that I am completely done with all images from this photowalk - neat, isn't it.
+
+You can also click the scratchbatch button if no images are currently on display. In this case the butchr lets you choose the 
+directory that shall be scratchbatched - of course, this should be a directory that was butchred before.
+

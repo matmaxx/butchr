@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<PublishModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sessions>
+	<string>D:\work\code\butchr\ButchrTests\xml\Session_1.xml</string>
+	<string>D:\work\code\butchr\ButchrTests\xml\Session_2.xml</string>
+</Sessions>
+</PublishModel>

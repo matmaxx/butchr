@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{18C83CF3-7243-4594-B0BF-7F815F19892D}"
+	ProjectSection(SolutionItems) = preProject
+		Butchr.vsmdi = Butchr.vsmdi
+		Butchr1.vsmdi = Butchr1.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		Help\PhotomatixCommandline.html = Help\PhotomatixCommandline.html
+		RevisionHistory.txt = RevisionHistory.txt
+		Workflow.txt = Workflow.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controls", "Controls", "{B0B4F9B2-196E-451B-90DC-84721A179BA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{0DF0185B-8828-475E-A783-C5DAA1B9FD39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{97684C62-9A9D-4520-B0C8-088386EA1650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface", "UserInterface\UserInterface.csproj", "{30FBA76F-9BC6-4C3A-9B1C-7F0720E6D00C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopWatch", "StopWatch\StopWatch.csproj", "{A77AA471-D767-4BAF-8BE2-E0F31A89DC60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTest", "ThreadTest\ThreadTest.csproj", "{9806650C-8E34-4D41-80BB-8E5CC5344B04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogManager", "LogManager\LogManager.csproj", "{11541744-4278-4155-B5C3-93052472896D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotomatixSlider", "PhotomatixSlider\PhotomatixSlider.csproj", "{D0BD0423-FB95-412E-A312-4FEA5EA37AAE}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ButchrSetup", "ButchrSetup\ButchrSetup.vdproj", "{2FA3B034-8ACB-4CF0-9D59-CC4D66CC4BAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8A558D32-80AC-4C15-BF05-9DE92FDA92AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButchrTests", "ButchrTests\ButchrTests.csproj", "{2E9F503A-2F41-4F4B-B040-20CBA3B738B7}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Butchr1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Setup|Any CPU = Setup|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30FBA76F-9BC6-4C3A-9B1C-7F0720E6D00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FBA76F-9BC6-4C3A-9B1C-7F0720E6D00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FBA76F-9BC6-4C3A-9B1C-7F0720E6D00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FBA76F-9BC6-4C3A-9B1C-7F0720E6D00C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FBA76F-9BC6-4C3A-9B1C-7F0720E6D00C}.Setup|Any CPU.ActiveCfg = Setup|Any CPU
+		{30FBA76F-9BC6-4C3A-9B1C-7F0720E6D00C}.Setup|Any CPU.Build.0 = Setup|Any CPU
+		{A77AA471-D767-4BAF-8BE2-E0F31A89DC60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A77AA471-D767-4BAF-8BE2-E0F31A89DC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A77AA471-D767-4BAF-8BE2-E0F31A89DC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A77AA471-D767-4BAF-8BE2-E0F31A89DC60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A77AA471-D767-4BAF-8BE2-E0F31A89DC60}.Setup|Any CPU.ActiveCfg = Setup|Any CPU
+		{A77AA471-D767-4BAF-8BE2-E0F31A89DC60}.Setup|Any CPU.Build.0 = Setup|Any CPU
+		{9806650C-8E34-4D41-80BB-8E5CC5344B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9806650C-8E34-4D41-80BB-8E5CC5344B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9806650C-8E34-4D41-80BB-8E5CC5344B04}.Setup|Any CPU.ActiveCfg = Setup|Any CPU
+		{11541744-4278-4155-B5C3-93052472896D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11541744-4278-4155-B5C3-93052472896D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11541744-4278-4155-B5C3-93052472896D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11541744-4278-4155-B5C3-93052472896D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11541744-4278-4155-B5C3-93052472896D}.Setup|Any CPU.ActiveCfg = Setup|Any CPU
+		{11541744-4278-4155-B5C3-93052472896D}.Setup|Any CPU.Build.0 = Setup|Any CPU
+		{D0BD0423-FB95-412E-A312-4FEA5EA37AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BD0423-FB95-412E-A312-4FEA5EA37AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BD0423-FB95-412E-A312-4FEA5EA37AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BD0423-FB95-412E-A312-4FEA5EA37AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0BD0423-FB95-412E-A312-4FEA5EA37AAE}.Setup|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BD0423-FB95-412E-A312-4FEA5EA37AAE}.Setup|Any CPU.Build.0 = Release|Any CPU
+		{2FA3B034-8ACB-4CF0-9D59-CC4D66CC4BAF}.Debug|Any CPU.ActiveCfg = Debug
+		{2FA3B034-8ACB-4CF0-9D59-CC4D66CC4BAF}.Release|Any CPU.ActiveCfg = Release
+		{2FA3B034-8ACB-4CF0-9D59-CC4D66CC4BAF}.Setup|Any CPU.ActiveCfg = Release
+		{2FA3B034-8ACB-4CF0-9D59-CC4D66CC4BAF}.Setup|Any CPU.Build.0 = Release
+		{2E9F503A-2F41-4F4B-B040-20CBA3B738B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9F503A-2F41-4F4B-B040-20CBA3B738B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E9F503A-2F41-4F4B-B040-20CBA3B738B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E9F503A-2F41-4F4B-B040-20CBA3B738B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E9F503A-2F41-4F4B-B040-20CBA3B738B7}.Setup|Any CPU.ActiveCfg = Release|Any CPU
+		{2E9F503A-2F41-4F4B-B040-20CBA3B738B7}.Setup|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0BD0423-FB95-412E-A312-4FEA5EA37AAE} = {B0B4F9B2-196E-451B-90DC-84721A179BA8}
+		{A77AA471-D767-4BAF-8BE2-E0F31A89DC60} = {0DF0185B-8828-475E-A783-C5DAA1B9FD39}
+		{11541744-4278-4155-B5C3-93052472896D} = {0DF0185B-8828-475E-A783-C5DAA1B9FD39}
+		{30FBA76F-9BC6-4C3A-9B1C-7F0720E6D00C} = {97684C62-9A9D-4520-B0C8-088386EA1650}
+		{9806650C-8E34-4D41-80BB-8E5CC5344B04} = {97684C62-9A9D-4520-B0C8-088386EA1650}
+		{2E9F503A-2F41-4F4B-B040-20CBA3B738B7} = {8A558D32-80AC-4C15-BF05-9DE92FDA92AC}
+	EndGlobalSection
+EndGlobal

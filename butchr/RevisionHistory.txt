@@ -1,0 +1,17 @@
+1.0
+First official version
+1.1
+Added exif viewer
+Refined debug/output messages
+LogManager now stores the LogType in the eventargs - used to display LogEvents in different colors
+removed xptable dummy row handling
+Reset imagemanager and clear listview after distribution to avoid images beeing grouped several times
+Bugfix: No more Offset calculation required on distribution
+Bugfix: Fixed some contextual issues on the helpfiles
+Bugfix: Removing all groups of a second import on a directory that already contained imagedirectories has set the initial group id to 001 instead of max(existing).
+1.2.
+On import, the butchr now ask to create non existing target directories automatically. But this only works if the parent directory already exists.
+Bugfix: Thumbnail creation progress was only visible on debug builds
+Bugfix: When importing multiple cards, the calculation on the new indices and offsets was correct while grouping the images, but was wrong during distribution
+Bugfix: Scratch batch files were created using standard UTF encoding. Therefore paths with german mutated vowels did not work while executing the batchfile.
+

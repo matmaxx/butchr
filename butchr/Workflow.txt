@@ -1,0 +1,62 @@
+Import
+set source directory
+set target directory
+parse target directory
+copy files from source to target
+generate thumbnails 
+display thumbnails
+group thumbnails
+generate final directory structure
+copy to final directory structure
+
+Merge
+set source directories
+set target directory (must be empty)
+parse source directories for duplicates
+ask duplicate action
+merge directory structure from source to target
+
+Instant conversion
+same as Import, but source and target are the same
+
+
+http://www.hdrsoft.com/download/command_line.html
+"c:\Program Files\PhotomatixPro3\PhotomatixCL.exe" 
+"C:\Programme\PhotomatixPro3\PhotomatixCL.exe" -3 -h "remove" -t1 -x1 scratch.xmp -o output_scratch -s jpg P1100502.JPG P1100502_minus.JPG P1100502_plus.JPG 
+
+
+publish
+
+common
+- title english
+- title german
+- description english
+- description german
+- tagging english
+- tagging german
+- path tiff
+- path jpg full
+- path jpg net
+- geotag
+- Working state
+flickr
+- uploadstatus
+HDR Spotting
+- uploadstatus
+- uploaddate
+- appearancestate
+- appearancedate
+FC
+- uploadstatus
+Whitewall
+- uploadstatus
+- galerystatus
+- artmarketstatus
+Facebook
+- uploadstatus
+Fotouristen
+- uploadstatus
+Fototreff24
+- uploadstatus
+Redbubble
+- uploadstatus

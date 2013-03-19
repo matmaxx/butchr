@@ -1,0 +1,36 @@
+Ok, so let's get started by importing images from your last photowalk.
+First of all, select the working paths for the butchr.
+The source path is the directory where your source images are currently stored. This may also be a removable card reader drive 
+or your camera connected via USB showing up in the explorer as an external drive. The only important thing is that all files 
+(JPG and RAW) are in the same directory.
+The target path is the root directory where your images will be stored for further processing.
+
+If you want to import more than one memory card into the same target folder, just select the same target folder on the second 
+run of the butchr. It will automatically detect that the target folder was already butchred before. 
+But stick to the workflow - do not import a second memory card before you have distributed the files of the first memory card.
+
+TAKE CARE: 
+The butchr does not read (but of course process) RAW files. 
+So if you are working with RAW files, make sure to also let your camera store the image as JPG. 
+The reason for that is simple: 
+RAW files are big, slow and hard to read and different for every camera manufacturerer. 
+JPG files are small (the lowest resolution is enough here), easy to read and the same for every camera manufacturer. 
+If your camera for some reason does not support saving in RAW and JPG at the same time, shoot in RAW, develop the RAWs 
+and then butchr the whole thing. 
+As an indication whether the butchr has found a valid RAW file along with a JGP, a black-on-red 'R' will be displayed 
+on the thumbnail. Initially the butchr assumes that the RAWs come in Nikon's NEF format (guess why - this is MY tool ;-]). 
+If it detects any other known RAW format, it will suggest to use this one instead. 
+If your RAW format is not recognized, write a bugreport and maybe I'll add it to the next version. 
+
+On import, you can choose the file operation mode that you want to use:
+Copy - Files will be copied to the target folders but will remain in the source location.
+Move - Files will be copied to the target folders but will be deleted in the source location.
+
+File operation can be selected for two workflow steps:
+Import - The operation of transfering the files from the original memory card or camera to a temporary folder in the target location.
+Distribution - The operation after grouping the files when transfering them to a wellformed directory structure for further processing.
+
+The defaults for the file operations are:
+Copy on import
+Move on distribution
+

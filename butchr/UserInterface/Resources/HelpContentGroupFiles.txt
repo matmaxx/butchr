@@ -1,0 +1,22 @@
+All of your images are now imported from the source location. 
+You now have to group them.
+Grouping means that you select all source images that belong to one series of brackets and either:
+- press the 'Group selected images' button on the toolbar (the one with the connected chains)
+- select 'Group selected images' from the main menu.
+- press 'S' 
+A small yellow square with the group number will be added to each selected image.
+
+If you grouped the wrong images, you can ungroup them by selecting them and perform one of these actions:
+- press the 'Ungroup selected images' button on the toolbar (the one with the disconnected chains)
+- select 'Ungroup selected images' from the main menu.
+- press 'D' 
+The small yellow square with the group number will disappear immediately and the selected images are 
+no longer grouped.
+
+The keyboard shortcuts do not have a deeper meaning - they are just easy to reach with my left hand.
+They can not be changed to other keys up to now, but maybe it feel like coding a configuration dialog 
+in one of the next versions of the butchr.
+
+Instead of grouping the images manually, you can also try the autogroup feature to group the images 
+by their original timestamp. The autogroup feature is accessible from the main menu or the toolbar,
+just click the magic wand to make it happen.

@@ -1,0 +1,111 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Matmaxx.Butchr.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastSourceFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastTargetFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SelectorFormLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">200, 200</Value>
+    </Setting>
+    <Setting Name="SelectorFormSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">1000, 800</Value>
+    </Setting>
+    <Setting Name="LastRawFormat" Type="System.String" Scope="User">
+      <Value Profile="(Default)">RAW</Value>
+    </Setting>
+    <Setting Name="PhotomatixCommandlinePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Programme\PhotomatixPro3\PhotomatixCL.exe</Value>
+    </Setting>
+    <Setting Name="DefaultXmpFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">default.xmp</Value>
+    </Setting>
+    <Setting Name="LastXmpImportFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastXmpExportFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PhotomatixCommandlinePathDefault" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Programme\PhotomatixPro3\PhotomatixCL.exe</Value>
+    </Setting>
+    <Setting Name="PhotomatixCommandlineOptions" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PhotomatixCommandlineOptionsDefault" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-3 -t1 -s jpg -j 100 -h "remove"</Value>
+    </Setting>
+    <Setting Name="PhotomatixCommandlineOptionsURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Help\PhotomatixCommandline.html</Value>
+    </Setting>
+    <Setting Name="ScratchDirectoryName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">scratch</Value>
+    </Setting>
+    <Setting Name="DeleteSourceJpgsAfterScratching" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="KeyGroupSelectedImages" Type="System.Windows.Forms.Keys" Scope="User">
+      <Value Profile="(Default)">S</Value>
+    </Setting>
+    <Setting Name="KeyUngroupSelectedImages" Type="System.Windows.Forms.Keys" Scope="User">
+      <Value Profile="(Default)">D</Value>
+    </Setting>
+    <Setting Name="MoveFilesOnImport" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MoveFilesOnDistribute" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ThumbboxSizeMin" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">80</Value>
+    </Setting>
+    <Setting Name="ThumbboxSizeMax" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">400</Value>
+    </Setting>
+    <Setting Name="ThumbboxSizeUsed" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+    <Setting Name="ThumbboxMargin" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="ThumbsizeInterval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="SplitVerticalDistance" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">144</Value>
+    </Setting>
+    <Setting Name="SplitHorizontalDistance" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">393</Value>
+    </Setting>
+    <Setting Name="TargetFolderMatchesSourceFolder" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AutogroupMinimumInterval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="ShowHelpImport" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowHelpAutoGroup" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowHelpDistribute" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowHelpScratchBatch" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowHelpOpenApplication" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowHelpGroupFiles" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PublishSessionCatalogPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{0}\publish\Catalog.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

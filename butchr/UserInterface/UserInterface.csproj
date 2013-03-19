@@ -1,0 +1,281 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30FBA76F-9BC6-4C3A-9B1C-7F0720E6D00C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Matmaxx.Butchr</RootNamespace>
+    <AssemblyName>Butchr</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>Butcher.pfx</AssemblyOriginatorKeyFile>
+    <ApplicationIcon>Butchr.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Butchr.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Butchr.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Setup|AnyCPU' ">
+    <OutputPath>bin\Setup\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\Butcher.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExifLib, Version=1.0.3877.17541, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\ExifLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XPTable, Version=1.2.0.22498, Culture=neutral, PublicKeyToken=24950705800d2198, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\XPTable.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application\ButchrEventArgs.cs" />
+    <Compile Include="Application\ExifData.cs" />
+    <Compile Include="Application\ImageManager.cs" />
+    <Compile Include="Application\PublishDataModel.cs" />
+    <Compile Include="Application\PublishManager.cs" />
+    <Compile Include="Application\ScratchXmpParameters.cs" />
+    <Compile Include="Application\SerializableDictionary.cs" />
+    <Compile Include="Application\XmlManager.cs" />
+    <Compile Include="Butchr.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\AutoGroupSettingsForm.resx">
+      <DependentUpon>AutoGroupSettingsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\ImportOptionsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ImportOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\ExistingFileStrategyForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ExistingFileStrategyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\PublishControl.resx">
+      <DependentUpon>PublishControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\ScratchOptionsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ScratchOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\SelectorForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UserInterface\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\AutoGroupSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\AutoGroupSettingsForm.Designer.cs">
+      <DependentUpon>AutoGroupSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\ImportOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\ImportOptionsForm.Designer.cs">
+      <DependentUpon>ImportOptionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\ExistingFileStrategyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\ExistingFileStrategyForm.Designer.cs">
+      <DependentUpon>ExistingFileStrategyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\PublishControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterface\PublishControl.Designer.cs">
+      <DependentUpon>PublishControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\ScratchOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\ScratchOptionsForm.Designer.cs">
+      <DependentUpon>ScratchOptionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\SelectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\SelectorForm.Designer.cs">
+      <DependentUpon>SelectorForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Butcher.pfx" />
+    <None Include="Resources\camera.png" />
+    <None Include="Resources\scratch.xmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Butchr.ico" />
+    <Content Include="Help\PhotomatixCommandline.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="media\arrow_in.png" />
+    <None Include="media\arrow_out.png" />
+    <Content Include="media\butchr_logo__400x200.jpg" />
+    <None Include="Resources\cup.png" />
+    <None Include="media\mod_input.png" />
+    <None Include="media\mod_output.png" />
+    <None Include="Resources\HelpContentGroupFiles.txt" />
+    <None Include="Resources\HelpContentOpenApplication.txt" />
+    <None Include="Resources\HelpContentScratchBatch.txt" />
+    <None Include="Resources\HelpContentAutoGroup.txt" />
+    <None Include="Resources\HelpContentDistribute.txt" />
+    <None Include="Resources\HelpContentImport.txt" />
+    <None Include="Resources\wand.png" />
+    <None Include="Resources\application_split.png" />
+    <None Include="Resources\arrow_in.png" />
+    <None Include="Resources\arrow_out.png" />
+    <None Include="media\page_white_camera.png" />
+    <None Include="media\photo.png" />
+    <None Include="media\information.png" />
+    <None Include="media\help.png" />
+    <None Include="media\arrow_refresh.png" />
+    <None Include="media\link_delete.png" />
+    <None Include="media\link_break.png" />
+    <None Include="media\link.png" />
+    <None Include="media\door_in.png" />
+    <None Include="media\wrench.png" />
+    <None Include="media\pictures.png" />
+    <None Include="media\picture.png" />
+    <None Include="media\pencil.png" />
+    <None Include="media\chart_organisation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogManager\LogManager.csproj">
+      <Project>{11541744-4278-4155-B5C3-93052472896D}</Project>
+      <Name>LogManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PhotomatixSlider\PhotomatixSlider.csproj">
+      <Project>{D0BD0423-FB95-412E-A312-4FEA5EA37AAE}</Project>
+      <Name>PhotomatixSlider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StopWatch\StopWatch.csproj">
+      <Project>{A77AA471-D767-4BAF-8BE2-E0F31A89DC60}</Project>
+      <Name>StopWatch</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

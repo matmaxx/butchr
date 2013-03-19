@@ -1,0 +1,34 @@
+Welcome to the butchr...
+
+The butchr is an organisation tool for HDR photographers. It follows a straight forward workflow that 
+is also decribed on my blog at http://www.matmaxx.org/hdrtutorial
+
+The workflow constists of the following steps:
+- import images from your camera or memory card
+- group images (either automatically by timestamp or manually by selection)
+- distribute images to a wellformed directory structure
+- generate a batch file that automatically creates a preview of the tonemapped image (requires photomatix)
+
+A detailed description of every step will appear when you actually select to execute it.
+The user interface matches this workflow, so if you click yourself through the the first part of the main toolbar from left to right
+up to the scratchbatch button, you will do all steps in the correct sequence.
+
+If you find any bugs or have some ideas for improvements on the tool, please use the support form on
+http://www.butchr.net/support to tell me about.
+And please, if you like and use this tool on a regular basis, donate some by either clicking the flattr
+button on my site or use the paypal donation system.
+
+!!!WARNING!!!
+I tested the butchr for more than a year now. It helped me organize more than 40000 images totally and I never 
+lost a single image due to the butchr. But anyway, I develop this tool to satisfy my own lazyness and because 
+I love coding C# nearly as much as I love HDR photography. But just to protect myself against any problems that 
+the butchr might cause on your machine and to your images I have to add this clause here:
+
+The user shall not be entitled to use the program in connection with any series production. 
+butchr.net provides the user with the program only for test purposes. 
+In case the user uses the program for purposes other than test purposes, butchr.net shall not be liable for 
+any damages which result from such use, and butchr.net does not make any warranties with respect to the 
+program or with respect to such use. 
+As the program is not fully tested and qualified for series production use, butchr.net's liability for damages 
+caused by ordinary negligence shall, in case the user uses the programs for test purposes, be excluded, 
+unless such exclusion is not permitted by mandatory law.
